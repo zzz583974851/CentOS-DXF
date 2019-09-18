@@ -37,7 +37,7 @@ function getIP() {
 function installSupportLibOnCentOS5() {
     echo "安装运行库..."
 
-    wget --no-check-certificate -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/idhyt/CentOS-DXF/master/CentOS-Base.repo/CentOS-Base.repo.5.8
+    wget --no-check-certificate -O /etc/yum.repos.d/CentOS-Base.repo https://github.com/zzz583974851/CentOS-DXF/master/CentOS-Base.repo/CentOS-Base.repo.5.8
     yum clean all
     yum makecache
 
@@ -148,7 +148,7 @@ function installDOF() {
 
 function downloadDXF() {
     echo "下载安装包..."
-    wget -O ./dxf_server.tar.gz https://github.com/idhyt/CentOS-DXF/blob/master/dxf/dxf_server.tar.gz?raw=true
+    wget -O ./dxf_server.tar.gz https://github.com/zzz583974851/CentOS-DXF/blob/master/dxf/dxf_server.tar.gz?raw=true
 }
 
 
